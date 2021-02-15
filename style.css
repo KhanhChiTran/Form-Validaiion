@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.form-wrap {
+  width: 50%;
+  max-width: 100%;
+  margin: 10vh auto;
+  padding: 20px;
+  border: 2px solid none;
+  box-shadow: #ccccccad 13px 0px 19px 2px;
+  border-radius: 3px;
+  color: rgb(26, 26, 77);
+}
+
+.form-heading {
+  text-align: center;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+input {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.form-submit {
+  width: 100%;
+  margin: 30px 0;
+  padding: 13px 0;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: turquoise;
+  font-size: 16px;
+}
