@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="form-wrap">
-      <form action="">
+      <form action="" id="form-1">
         <div class="form-heading">
           <h2>Sign Up</h2>
 
@@ -49,5 +49,15 @@
         <button class="form-submit" type="submit">Sign Up</button>
       </form>
     </div>
+    <script src="main.js">
+      Validator({
+        form: '#form-1',
+        rules : [
+          Validator.isRequired('#fullname'),
+          Validator.isEmail('#email'),
+
+        ]
+      })
+    </script>
   </body>
 </html>
