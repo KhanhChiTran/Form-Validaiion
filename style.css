@@ -30,7 +30,7 @@ input {
   font-size: 16px;
 }
 
-.form-submit {
+#submit {
   width: 100%;
   margin: 30px 0;
   padding: 13px 0;
@@ -38,5 +38,13 @@ input {
   border-radius: 3px;
   color: white;
   background-color: turquoise;
-  font-size: 16px;
+  font-size: 18px;
+}
+.form-message {
+  color: red;
+  font-style: italic;
+  font-size: 13px;
+}
+.star {
+  color: red;
 }

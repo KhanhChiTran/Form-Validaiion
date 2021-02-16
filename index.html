@@ -19,45 +19,53 @@
         <div class="spacer"></div>
 
         <div class="form-group">
-          <label for="fullname" class="form-label">Username</label>
+          <label for="fullname" class="form-label"
+            >Username <span class="star"></span
+          ></label>
           <input id="fullname" name="fullname" type="text" />
-          <span class="form-message"></span>
+          <span class="form-message fullname"></span>
         </div>
 
         <div class="form-group">
           <label for="email">Email Address</label>
           <input id="email" name="email" type="email" />
-          <span class="form-message"></span>
+          <span class="form-message email"></span>
         </div>
 
         <div class="form-group">
           <label for="password">Password</label>
           <input id="password" name="password" type="password" />
-          <span class="form-message"></span>
+          <span class="form-message password"></span>
         </div>
 
         <div class="form-group">
-          <label for="password-confirm">Confirm Password</label>
+          <label for="password-confirm"
+            >Confirm Password<span class="star"></span
+          ></label>
           <input
             id="password-confirm"
             name="password-confirm"
             type="password"
           />
-          <span class="form-message"></span>
+          <span class="form-message password-confirm"></span>
         </div>
 
-        <button class="form-submit" type="submit">Sign Up</button>
+        <div class="form-group">
+          <label for="submit"></label>
+          <input id="submit" name="submit" type="submit" />
+          <span class="form-message submit"></span>
+        </div>
       </form>
     </div>
     <script src="main.js">
-      Validator({
-        form: '#form-1',
-        rules : [
-          Validator.isRequired('#fullname'),
-          Validator.isEmail('#email'),
+      // Validator({
+      //   form: '#form-1',
+      //   rules : [
+      //     Validator.isRequired('#fullname'),
+      //     Validator.isEmail('#email'),
 
-        ]
-      })
+      //   ]
+      // })
     </script>
   </body>
 </html>
