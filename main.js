@@ -98,7 +98,8 @@ passwordConfirmInput.onblur = () => {
 
 const submitBtn = document.querySelector("#submit");
 
-submitBtn.onclick = () => {
+submitBtn.onclick = (e) => {
+  e.preventDefault();
   if (
     !fullNameInput.length ||
     !emailInput.length ||
